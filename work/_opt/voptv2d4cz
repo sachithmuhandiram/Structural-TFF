@@ -1,0 +1,35 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dC:\Users\Sachith-PC\Desktop\xi\Structural-TFF
+T_opt
+Z2 VYeQY3b6MWfmnBI4LmXPjO3
+Z3 04 7 10 work and_clk behavioral 0
+Z4 =1-16db3002d4cf-57b3cc9c-1dd-dc8
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Eand_clk
+Z8 w1471401029
+Z9 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z10 8and_clk.vhd
+Z11 Fand_clk.vhd
+l0
+L32
+Z12 Vk[[V8@=9;[d@g6hQe[8O91
+Z13 OE;C;6.3f;37
+Z14 o-explicit -93
+R6
+Abehavioral
+R9
+DEx50 C:\Users\Sachith-PC\Desktop\xi\Structural-TFF\work 7 and_clk 0 22 k[[V8@=9;[d@g6hQe[8O91
+31
+Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+l42
+L40
+Z15 VgRBdm5<SmF[<eIWngifm^0
+R13
+R14
+R6

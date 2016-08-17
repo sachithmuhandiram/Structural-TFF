@@ -1,0 +1,43 @@
+# Reading C:/Modeltech_6.3f/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.3f Feb 28 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {and_clk.fdo} 
+# Model Technology ModelSim SE vcom 6.3f Compiler 2008.02 Feb 28 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and_clk
+# -- Compiling architecture behavioral of and_clk
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.and_clk 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and_clk(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+force -freeze sim:/and_clk/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/and_clk/a 0 0
+force -freeze sim:/and_clk/b 0 0
+force -freeze sim:/and_clk/reset 0 0
+run
+run
+run
+run
+force -freeze sim:/and_clk/a 1 0
+run
+force -freeze sim:/and_clk/b 1 0
+run
+run
+run
+force -freeze sim:/and_clk/reset 1 0
+run
+run
+run
